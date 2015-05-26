@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SophieTownsend", "SophieTownsend\SophieTownsend.csproj", "{14C8FEBA-0DF9-4157-B8AD-AF2641A738A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{5DD335D0-8508-4D01-8EBA-EF96CBB92F4B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{A3457518-D7E2-4010-816F-6C734096E37B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\SophieTownsend-WAWS-dev.json = PublishScripts\Configurations\SophieTownsend-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14C8FEBA-0DF9-4157-B8AD-AF2641A738A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C8FEBA-0DF9-4157-B8AD-AF2641A738A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C8FEBA-0DF9-4157-B8AD-AF2641A738A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C8FEBA-0DF9-4157-B8AD-AF2641A738A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3457518-D7E2-4010-816F-6C734096E37B} = {5DD335D0-8508-4D01-8EBA-EF96CBB92F4B}
+	EndGlobalSection
+EndGlobal
