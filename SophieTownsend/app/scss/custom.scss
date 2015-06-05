@@ -1,0 +1,13 @@
+﻿$color: black;
+$background: url(../images/background2.jpg);
+
+body {
+    background-color:$color;
+    background-image:$background;
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+
+.container {
+    max-width:960px;
+}

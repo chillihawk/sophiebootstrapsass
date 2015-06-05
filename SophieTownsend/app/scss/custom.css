@@ -1,0 +1,10 @@
+﻿body {
+  background-color: black;
+  background-image: url(../images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.container {
+  max-width: 960px; }
+
+/*# sourceMappingURL=custom.css.map */

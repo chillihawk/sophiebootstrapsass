@@ -1,26 +1,28 @@
 {
-  "name": "Skeleton-Sass",
-  "version": "2.0.4",
-  "homepage": "https://github.com/whatsnewsaes/Skeleton-Sass",
+  "name": "sophietownsendflowers",
+  "version": "2.0.0",
+  "homepage": "https://github.com/chillihawk/sophiebootstrapsass",
   "authors": [
-    "Seth Coelen <scoelen89@gmail.com> (http://SethCoelen.com)"
+    "Yes"
   ],
-  "description": "The (un)official Sass Version of Skeleton (2.0.4): A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development",
-  "main": "scss/skeleton.scss",
+  "description": "website for sophie townsend flowers using bootstrap and sass",
+  "main": "index.html",
   "keywords": [
-    "skeleton",
+    "bootstrap",
     "sass",
-    "scss",
-    "responsive",
-    "boilerplate"
+    "jquery",
+    "website"
   ],
-  "license": "MIT",
+  "license": "Yes",
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components"
+    "bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
-    "normalize.css": "~3.0.2"
+    "bootstrap": "~3.3.4",
+    "jquery": "~2.1.4"
   }
 }
