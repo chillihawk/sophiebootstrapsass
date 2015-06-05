@@ -181,6 +181,7 @@
     <Content Include="app\images\background2.jpg" />
     <Content Include="app\images\bouquet1.jpg" />
     <Content Include="app\images\brand.jpg" />
+    <Content Include="app\images\brand.png" />
     <Content Include="app\images\buttonhole2.jpg" />
     <Content Include="app\images\favicon.png" />
     <Content Include="app\images\header_left.jpg" />

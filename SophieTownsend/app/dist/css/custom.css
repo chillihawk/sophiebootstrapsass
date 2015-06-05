@@ -2,12 +2,17 @@ body {
   background-color: black;
   /*background-image:$background;*/
   background-repeat: no-repeat;
-  background-size: 100%; }
+  background-size: 100%;
+  font-family: Verdana, Helvetica, Arial, sans-serif; }
 
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 960px; } }
+    max-width: 930px; } }
+
+/* Customize navbar-brand for sophie's image*/
+.navbar-brand {
+  padding: 8px 15px; }
 
 footer {
   background-image: -webkit-linear-gradient(bottom, #3c3c3c 0%, #222 100%);
@@ -16,7 +21,9 @@ footer {
   background-image: linear-gradient(to top, #3c3c3c 0%, #222 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  background-repeat: repeat-x; }
+  background-repeat: repeat-x;
+  line-height: 125%;
+  color: white; }
 
 h4 {
   margin-top: 25px; }
