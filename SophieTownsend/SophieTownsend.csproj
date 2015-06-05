@@ -176,11 +176,11 @@
     <Content Include="app\bower_components\jquery\src\var\support.js" />
     <Content Include="app\bower_components\jquery\src\var\toString.js" />
     <Content Include="app\bower_components\jquery\src\wrap.js" />
-    <Content Include="app\bower_components\normalize.css\normalize.css" />
     <Content Include="app\gulpfile.js" />
     <Content Include="app\images\background.jpg" />
     <Content Include="app\images\background2.jpg" />
     <Content Include="app\images\bouquet1.jpg" />
+    <Content Include="app\images\brand.jpg" />
     <Content Include="app\images\buttonhole2.jpg" />
     <Content Include="app\images\favicon.png" />
     <Content Include="app\images\header_left.jpg" />
@@ -2262,10 +2262,6 @@
     <Content Include="app\node_modules\gulp\node_modules\vinyl-fs\node_modules\vinyl\node_modules\clone-stats\test.js" />
     <Content Include="app\node_modules\gulp\node_modules\vinyl-fs\node_modules\vinyl\node_modules\clone\clone.js" />
     <Content Include="app\node_modules\gulp\node_modules\vinyl-fs\node_modules\vinyl\node_modules\clone\test.js" />
-    <Content Include="app\bower_components\normalize.css\.bower.json" />
-    <Content Include="app\bower_components\normalize.css\bower.json" />
-    <Content Include="app\bower_components\normalize.css\LICENSE.md" />
-    <Content Include="app\bower_components\normalize.css\README.md" />
     <Content Include="app\node_modules\.bin\gulp" />
     <Content Include="app\node_modules\.bin\gulp.cmd" />
     <Content Include="app\node_modules\gulp-sass\.editorconfig" />
@@ -4103,7 +4099,6 @@
     <Content Include="app\scss\custom.min.css">
       <DependentUpon>custom.css</DependentUpon>
     </Content>
-    <Content Include="app\scss\skeleton.scss" />
     <Content Include="app\scss\custom.scss" />
     <Content Include="app\scss\custom.css.map">
       <DependentUpon>custom.css</DependentUpon>
