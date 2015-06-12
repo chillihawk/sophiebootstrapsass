@@ -58,6 +58,26 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".editorconfig" />
+    <Content Include="app\htmlpartials\_script.html" />
+    <Content Include="app\htmlpartials\_head.html" />
+    <Content Include="app\images\about_sophie.jpg" />
+    <Content Include="app\images\testimonial_alice.jpg" />
+    <Content Include="app\images\testimonial_anna.jpg" />
+    <Content Include="app\images\testimonial_dania.jpg" />
+    <Content Include="app\images\testimonial_diane.jpg" />
+    <Content Include="app\images\testimonial_lanny.jpg" />
+    <Content Include="app\images\testimonial_rachel.jpg" />
+    <Content Include="app\images\testimonial_sarah.jpg" />
+    <Content Include="app\images\thumb_toptable.jpg" />
+    <Content Include="app\images\thumb_pedestal.jpg" />
+    <Content Include="app\images\thumb_guesttable.jpg" />
+    <Content Include="app\images\thumb_cake.jpg" />
+    <Content Include="app\images\thumb_buttonhole.jpg" />
+    <Content Include="app\images\brand2.png" />
+    <Content Include="app\images\thumb_bridesmaidbouquet.jpg" />
+    <Content Include="app\images\thumb_bridalbouquet.jpg" />
+    <Content Include="prices.html" />
+    <Content Include="testimonials.html" />
     <Content Include="app\.gitignore" />
     <Content Include="app\bower_components\bootstrap\dist\css\bootstrap-theme.css" />
     <Content Include="app\bower_components\bootstrap\dist\css\bootstrap-theme.min.css" />
@@ -177,18 +197,15 @@
     <Content Include="app\bower_components\jquery\src\var\toString.js" />
     <Content Include="app\bower_components\jquery\src\wrap.js" />
     <Content Include="app\gulpfile.js" />
-    <Content Include="app\images\background.jpg" />
-    <Content Include="app\images\background2.jpg" />
+    <Content Include="app\htmlpartials\_footer.html" />
+    <Content Include="app\htmlpartials\_nav.html" />
     <Content Include="app\images\bouquet1.jpg" />
-    <Content Include="app\images\brand.jpg" />
-    <Content Include="app\images\brand.png" />
     <Content Include="app\images\buttonhole2.jpg" />
     <Content Include="app\images\favicon.png" />
-    <Content Include="app\images\header_left.jpg" />
-    <Content Include="app\images\header_right.jpg" />
     <Content Include="app\images\other3.jpg" />
     <Content Include="app\images\wedding0.jpg" />
     <Content Include="app\images\wedding1.jpg" />
+    <Content Include="app\images\wedding2.jpg" />
     <Content Include="app\node_modules\gulp-sass\index.js" />
     <Content Include="app\node_modules\gulp-sass\node_modules\gulp-util\index.js" />
     <Content Include="app\node_modules\gulp-sass\node_modules\gulp-util\lib\buffer.js" />
@@ -4113,6 +4130,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>

@@ -1,58 +1,63 @@
-﻿$color: black;
-$background: url(../images/background2.jpg);
+﻿$body-background-color: #000;
+$body-text-color: #fff;
+$column-background-color: #eee;
+$column-border-color: #ddd;
+$footer-text-color: #fff;
+$footer-gradient-from-color: #3c3c3c;
+$footer-gradient-to-color: #222; 
 
 body {
-    background-color:$color;
-    /*background-image:$background;*/
-    background-repeat:no-repeat;
-    background-size:100%;
-    font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-color: $body-background-color;
+  color: $body-text-color;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
-/* Customize container */
+// Customize container
 @media (min-width: 768px) {
   .container {
     max-width: 930px;
   }
 }
 
-/* Customize navbar-brand for sophie's image*/
-.navbar-brand{
-    padding: 8px 15px;
+// Customize navbar-brand for sophie's image
+.navbar-brand {
+  padding: 8px 15px;
 }
 
-footer {
-  background-image: -webkit-linear-gradient(bottom, #3c3c3c 0%, #222 100%);
-  background-image:      -o-linear-gradient(bottom, #3c3c3c 0%, #222 100%);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#3c3c3c), to(#222));
-  background-image:         linear-gradient(to top, #3c3c3c 0%, #222 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  background-repeat: repeat-x;
-  line-height: 125%;
-  color:white;
-}
 
 h4 {
+  color: $body-text-color;
   margin-top: 25px;
 }
-.row {
-  margin-bottom: 20px;
-}
-.row .row {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
+
 [class*="col-"] {
-  padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #eee;
-  background-color: rgba(86,61,124,.15);
-  border: 1px solid #ddd;
-  border: 1px solid rgba(86,61,124,.2);
+  padding-top: 15px;
 }
 
 hr {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+// over-rides for list items
+.list-group-item {
+  background-color: $body-background-color;
+  border: 0;
+  color: $footer-text-color;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.copyright {
+  background-image: linear-gradient(to top, $footer-gradient-from-color, 0, $footer-gradient-to-color 100%);
+  background-repeat: repeat-x;
+  color: $footer-text-color;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  line-height: 125%;
+}
+
+.glyphicon {
+  color: $body-text-color;
 }
