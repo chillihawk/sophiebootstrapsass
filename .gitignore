@@ -74,3 +74,8 @@ bld/
 node_modules/
 bower_components/
 build/
+
+# Don't keep the build artifacts, in case they haven't been cleaned up
+csslint.xml
+**/app/temp
+**/scss/*.css
