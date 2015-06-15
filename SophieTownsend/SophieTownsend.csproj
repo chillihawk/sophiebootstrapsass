@@ -58,8 +58,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".editorconfig" />
+    <Content Include="app\htmlpartials\_gtm.html" />
     <Content Include="app\htmlpartials\_script.html" />
     <Content Include="app\htmlpartials\_head.html" />
+    <Content Include="app\images\gallery_buttonhole13.jpg" />
+    <Content Include="app\images\gallery_buttonhole14.jpg" />
+    <Content Include="app\images\gallery_other10.jpg" />
+    <Content Include="app\images\gallery_other11.JPG" />
+    <Content Include="app\images\gallery_other12.JPG" />
+    <Content Include="app\images\testimonial_izzi.jpg" />
     <Content Include="app\images\wedding_charlotte6.jpg" />
     <Content Include="app\images\wedding_charlotte4.jpg" />
     <Content Include="app\images\wedding_charlotte1.jpg" />
@@ -95,10 +102,10 @@
     <Content Include="app\images\gallery_buttonhole9.jpg" />
     <Content Include="app\images\gallery_other7.jpg" />
     <Content Include="app\images\gallery_other9.jpg" />
-    <Content Include="app\images\gallery_other11.JPG" />
+    <Content Include="app\images\gallery_other14.JPG" />
     <Content Include="app\images\index_bouquet1.jpg" />
-    <Content Include="app\images\gallery_other10.jpg" />
-    <Content Include="app\images\gallery_other12.JPG" />
+    <Content Include="app\images\gallery_other13.jpg" />
+    <Content Include="app\images\gallery_other15.JPG" />
     <Content Include="app\images\thumb_bridesmaidbouquet.jpg" />
     <Content Include="app\images\gallery_bouquet14.jpg" />
     <Content Include="app\images\gallery_bouquet13.jpg" />

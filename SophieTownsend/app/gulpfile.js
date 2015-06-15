@@ -27,7 +27,9 @@ gulp.task('clean_temp', function () {
 
 gulp.task('bootlint', function () {
     return gulp.src('../*.html')
-        .pipe(bootlint());
+        .pipe(bootlint({
+            disabledIds: ['W001','W002','W003','W005','W009']
+        }));
 });
 
 gulp.task('scsslint', function () {
@@ -112,6 +114,12 @@ gulp.task('partials', ['head', 'script', 'nav'], function () {
         }))
         .pipe(inject(gulp.src('./temp/_script.html'), {
             starttag: '<!-- inject:script:html -->',
+            transform: function (filePath, file) {
+                return file.contents.toString('utf8')
+            }
+        }))
+        .pipe(inject(gulp.src('./htmlpartials/_gtm.html'), {
+            starttag: '<!-- inject:gtm:html -->',
             transform: function (filePath, file) {
                 return file.contents.toString('utf8')
             }
