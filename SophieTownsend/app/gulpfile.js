@@ -229,7 +229,7 @@ gulp.task('wedding_charlotte', ['wedding_lanny'], function () {
         .pipe(gulp.dest('dist'));
 })
 
-gulp.task('build', ['image','sass','wedding_charlotte'], function (){
+gulp.task('build', ['image','sass','wedding_charlotte'], function (){ 
     gulp.src(['../web.config'])
         .pipe(gulp.dest('dist'));
 });
