@@ -79,3 +79,6 @@ build/
 csslint.xml
 **/app/temp
 **/scss/*.css
+**/scss/*.css.map
+**/scss/*.min.css
+**/app/dist
